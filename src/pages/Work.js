@@ -21,6 +21,11 @@ const workTitle = [
     'Supply Chain Management Intern',
     'Tuition Teacher',
 ];
+const workCompany = [
+    'NTT Singapore Digital Business Solutions Pte Ltd',
+    'Centre of Innovation @ Republic Polytechnic',
+    'Self-Sourced'
+]
 const workDuration = [
     'Aug 2020 - Mar 2021',
     'Oct 2017 - Feb 2018',
@@ -58,6 +63,7 @@ export function Work() {
                 workDescription={workDescription[i]}
                 workDuration={workDuration[i]}
                 workHighlight={workHighlight[i]}
+                workCompany={workCompany[i]}
             />
         );
     }

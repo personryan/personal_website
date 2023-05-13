@@ -18,6 +18,7 @@ const CardWork = ({
     workDescription,
     workDuration,
     workHighlight,
+    workCompany,
 }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
@@ -91,6 +92,7 @@ const CardWork = ({
                         </Heading>
                         <Box as='b' pr={2}>{workDuration}</Box>
                     </Flex>
+                    <Text as={'b'} color={subTextColor} mt={2}> {workCompany}</Text>
                     <Text color={subTextColor} noOfLines={2} mt={2}>
                         {workDescription}
                     </Text>
