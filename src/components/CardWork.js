@@ -12,6 +12,14 @@ import {
 } from '@chakra-ui/react';
 import { BsArrowUpRight, } from 'react-icons/bs';
 
+const listItemStyles = {
+    fontSize: '14px', /* Base font size */
+    marginBottom: '1.5rem',
+    '@media (min-width: 768px)': {
+      fontSize: '16px', /* Font size for small (sm) breakpoint and above */
+    }
+  };
+
 const CardWork = ({
     workSkill,
     workTitle,
@@ -86,21 +94,21 @@ const CardWork = ({
                             </Box>
                         ))}
                     </Flex>
-                    <Flex justifyContent={'space-between'}>
-                        <Heading color={textColor} fontSize={'2xl'} noOfLines={1} mb={2}>
+                    <Flex justifyContent={'space-between'} alignItems="center">
+                        <Heading color={textColor} fontSize={{base: 'sm', sm: 'md'}} mb={2}>
                             <Box>{workTitle}</Box>
                         </Heading>
-                        <Box as='b' pr={2}>{workDuration}</Box>
+                        <Box as='b' fontSize={{base: 'xs', sm: 'sm'}} mb={2} pr={1}>{workDuration}</Box>
                     </Flex>
-                    <Text as={'b'} color={subTextColor} mt={2}> {workCompany}</Text>
-                    <Text color={subTextColor} noOfLines={2} mt={2}>
+                    <Text as={'b'} color={subTextColor} mt={2} fontSize={{base: 'xs', sm: 'sm'}}> {workCompany}</Text>
+                    <Text color={subTextColor} noOfLines={2} mt={2} fontSize={{base: 'xs', sm: 'sm'}}>
                         {workDescription}
                     </Text>
-                    <Collapse in={isExpanded} startingHeight={0}>
+                    <Collapse in={isExpanded} startingHeight={0} fontSize={{base: 'xs', sm: 'sm'}}>
                         <Box mt={4}>
                             <ul style={{ listStyleType: 'disc', marginLeft: '1.5rem' }}>
                                 {workHighlight.map((highlight, index) => (
-                                    <li>{highlight}</li>
+                                    <li style={listItemStyles} >{highlight}</li>
                                 ))}
                             </ul>
                         </Box>
