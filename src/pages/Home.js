@@ -11,6 +11,7 @@ import {
     IconButton,
     VStack,
     useToast,
+    useBreakpointValue,
 } from '@chakra-ui/react';
 import '../style.css';
 import { EmailIcon, PhoneIcon } from '@chakra-ui/icons';
@@ -20,6 +21,7 @@ export function Home() {
     const toast = useToast();
     const email = 'rlim31449@gmail.com';
     const phoneNo = '+65 9694 5284'
+    const direction = useBreakpointValue({ base: 'column', md: 'row' });
 
     const copyToClipboard = async (event) => {
         const selected = event.target.innerText;
@@ -72,7 +74,7 @@ export function Home() {
                     Data Analytics Specialisation course. My experiences from jobs and project works have taught
                     me the importance of teamwork, communication and presentation.
                 </Text>
-                <Stack spacing={6} direction={'row'}>
+                <Stack spacing={6} direction={direction} align={'center'}>
                     <a href={'https://www.linkedin.com/in/ryan-lim-b3730724b/'} target="_blank" rel="noopener noreferrer">
                         <Button display="flex" alignItems="center" rounded="full">
                             <AiFillLinkedin
