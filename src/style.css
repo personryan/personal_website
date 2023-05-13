@@ -1,0 +1,17 @@
+.typing-text {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 2s steps(10, end) infinite;
+    border-right: solid #000; /* Add a blinking cursor effect */
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
