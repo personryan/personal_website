@@ -61,6 +61,14 @@ const CardWork = ({
             bg: 'green.700',
             text: 'white',
         },
+        Design: {
+            bg: 'teal.500',
+            text: 'white',
+        },
+        UI: {
+            bg: 'yellow.500',
+            text: 'white',
+        }
     };
     return (
         <Center py={6}>
