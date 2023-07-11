@@ -14,6 +14,7 @@ const workSkill = [
     ['Data Analysis', 'Excel', 'Communication', 'Problem Solving'],
     ['Data Analysis', 'Excel', 'Presentation', 'Problem Solving'],
     ['Communication', 'Problem Solving'],
+    ['Communication', 'UI', 'Design']
 ];
 
 const workTitle = [
