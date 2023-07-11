@@ -61,6 +61,14 @@ const CardProject = ({
             bg: 'red.800',
             text: 'white',
         },
+        Unity: {
+            bg: 'teal.500',
+            text: 'white',
+        },
+        'C#': {
+            bg: 'yellow.500',
+            text: 'white',
+        }
     };
 
     return (
