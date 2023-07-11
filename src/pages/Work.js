@@ -27,7 +27,7 @@ const workCompany = [
     'NTT Singapore Digital Business Solutions Pte Ltd',
     'Centre of Innovation @ Republic Polytechnic',
     'Self-Sourced',
-    'Singapore Institute of Technology'
+    'Singapore Institute of Technology',
 ]
 const workDuration = [
     'Aug 2020 - Mar 2021',
@@ -39,7 +39,7 @@ const workDescription = [
     'Assisted in payment receiveable, invoices and monthly financial analysis.',
     'Created supply chain management solutions such as inventory planner & Robotic Process Automation(RPA) solutions',
     'Taught primary school students on mathematics and science',
-    'Develop webpage and update details'
+    'Develop webpage and update details',
 ]
 const workHighlight = [
     ['Created an Excel sheet to conduct monthly financial analysis, leading to a one-week reduction in the time for key stakeholders to receive the information',
