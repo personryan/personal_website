@@ -68,7 +68,15 @@ const CardProject = ({
         'C#': {
             bg: 'yellow.500',
             text: 'white',
-        }
+        },
+        "ASP.NET": {
+            bg: 'red.500',
+            text: 'white',
+        },
+        "React": {
+            bg: 'blue.500',
+            text: 'white',
+        },
     };
 
     return (

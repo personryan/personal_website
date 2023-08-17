@@ -16,6 +16,7 @@ const projectLanguage = [
     ['Vue', 'SQL', 'MongoDB'],
     ['SQL', 'Excel', 'R Programming', 'Tableau'],
     ['Unity', 'C#'],
+    ['React', 'C#', 'ASP.NET']
 ];
 
 const projectTitle = [
@@ -24,6 +25,7 @@ const projectTitle = [
     'Public Transport Mapper',
     'Cyclistic Case Study',
     'Healthy O Metre',
+    'Smart Home Web Application',
 ];
 
 const projectDescription = [
@@ -32,6 +34,7 @@ const projectDescription = [
     'Trip planner for public transportation in SG.',
     'Clean, analyse and present analysis done on 12 months of historic data.',
     'Fostering healthy eating habits through gamification',
+    'Control smart home devices through this web application',
 ]
 const projectLink =[
     'https://github.com/personryan/Price-Monitor-Lazada',
@@ -39,6 +42,7 @@ const projectLink =[
     'https://github.com/personryan/ICT2103-Public-Transport-Mapper',
     'https://github.com/personryan/DataAnalyticsCaseStudy',
     'https://github.com/personryan/ITP3111_Healthy_O_Meter',
+    'https://github.com/personryan/ICT2106_P2_Project_M1',
 ]
 
 export function Project() {
